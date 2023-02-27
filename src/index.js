@@ -4,7 +4,7 @@ import { OrbitControls, Stars } from "@react-three/drei";
 import { Physics, usePlane, useBox } from "@react-three/cannon";
 import "./styles.css";
 
-
+// test edit
 function Box() {
 	const [ref, api] = useBox(() => ({ mass: 1, position: [0, 2, 0] }));
 	return (
